@@ -9,7 +9,7 @@
          Previous page
       </router-link>
       <router-link
-         v-if="eventsLength > this.page * 3"
+         v-if="hasMorePages"
          :to="{ name: 'event-list', query: { page: this.page + 1 } }"
       >
          Next page
@@ -25,19 +25,21 @@ export default {
    components: {
       EventCard
    },
-   created() {
-      this.fetchEvents({
-         perPage: 3,
-         page: this.page
-      })
+   props: {
+      events: {
+         type: Array,
+         required: true
+      }
    },
    methods: mapActions('eventModule', ['fetchEvents']),
    computed: {
       page() {
          return parseInt(this.$route.query.page) || 1
       },
+      hasMorePages() {
+         return this.eventsLength > this.page * 3
+      },
       ...mapState({
-         events: state => state.eventModule.events,
          user: state => state.userModule.user,
          eventsLength: state => state.eventModule.eventsLength
       })

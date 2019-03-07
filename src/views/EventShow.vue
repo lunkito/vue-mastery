@@ -1,7 +1,9 @@
 <template>
    <div>
       <div class="event-header">
-         <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
+         <span class="eyebrow">
+            @{{ event.time }} on {{ event.date | date }}
+         </span>
          <h1 class="title">{{ event.title }}</h1>
          <h5>Organized by {{ event.organizer ? event.organizer.name : '' }}</h5>
          <h5>Category: {{ event.category }}</h5>
@@ -33,17 +35,13 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
-
 export default {
-   props: ['id'],
-   computed: mapState({
-      event: state => state.eventModule.event
-   }),
-   created() {
-      this.fetchEvent(this.id)
-   },
-   methods: mapActions('eventModule', ['fetchEvent'])
+   props: {
+      event: {
+         type: Object,
+         required: true
+      }
+   }
 }
 </script>
 

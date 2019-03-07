@@ -1,102 +1,48 @@
 {
   "events": [
     {
-      "id": 1,
-      "title": "Beach Cleanup",
-      "date": "Aug 28 2018",
-      "time": "10:00",
-      "location": "Daytona Beach",
-      "description": "Let's clean up this beach.",
-      "organizer": {
+      "id": 5928101,
+      "user": {
         "id": "abc123",
-        "name": "Adam Jahr"
+        "name": "Adam"
       },
-      "category": "sustainability",
-      "attendees": [
-        {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "def456",
-          "name": "Gregg Pollack"
-        },
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": []
     },
     {
-      "id": 2,
-      "title": "Park Cleanup",
-      "date": "Nov 12 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "We're going to clean up this park.",
-      "organizer": {
+      "id": 8419988,
+      "user": {
         "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "nature",
-      "attendees": [
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Pet Adoption Day",
-      "date": "Dec 2 2018",
-      "time": "12:00",
-      "location": "132 N Magnolia Street, Orlando, Florida",
-      "description": "Help animals find new homes.",
-      "organizer": {
-        "id": "asdfgh",
-        "name": "Gregg Pollack"
+        "name": "Adam"
       },
       "category": "animal welfare",
-      "attendees": [
-        {
-          "id": "abc123",
-          "name": "Adam Jahr"
-        },
-        {
-          "id": "ghi789",
-          "name": "Beth Swanson"
-        },
-        {
-          "id": "jkl101",
-          "name": "Mary Gordon"
-        }
-      ]
+      "organizer": "Adam",
+      "title": "Kitty Cluster",
+      "description": "Yay cats!",
+      "location": "Catlandia",
+      "date": "2019-01-31T22:09:00.000Z",
+      "time": "7:00",
+      "attendees": []
     },
     {
+      "id": 4582797,
       "user": {
-        "id": "123",
-        "name": "Adam Jason"
+        "id": "abc123",
+        "name": "Adam"
       },
-      "id": 53839,
       "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "Event title",
-      "description": "event description",
-      "location": "Event location",
-      "date": "2019-02-06T17:13:00.000Z",
-      "time": "13:00",
+      "organizer": "Adam",
+      "title": "Puppy Parade",
+      "description": "Yay pups!",
+      "location": "Puptown ",
+      "date": "2019-02-02T23:27:00.000Z",
+      "time": "1:00",
       "attendees": []
     },
     {
@@ -104,323 +50,17 @@
         "id": "123",
         "name": "Adam Jason"
       },
-      "id": 35848,
+      "id": 28375,
       "category": "animal welfare",
       "organizer": {
         "id": "123",
         "name": "Adam Jason"
       },
-      "title": "asdf",
-      "description": "asdf",
-      "location": "sdaf",
-      "date": "2019-02-05T17:19:00.000Z",
-      "time": "11:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 13036,
-      "category": "nature",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "Routing",
-      "description": "asdf",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 68471,
-      "category": "housing",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "Doing maths",
-      "description": "operations and stuff",
-      "location": "Library",
-      "date": "2019-02-01T17:23:00.000Z",
+      "title": "Filters in vue",
+      "description": "Date filter",
+      "location": "Somwhere",
+      "date": "2019-03-07T19:56:00.000Z",
       "time": "16:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 16251,
-      "category": "comunity",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "Lorem ipsum",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere mauris at nulla venenatis aliquam. Proin mattis tempor condimentum. Integer porta congue nisi, id elementum sem gravida nec.",
-      "location": "Somewhere",
-      "date": "2019-02-08T21:41:00.000Z",
-      "time": "17:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 20019,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "asdfasdf",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere mauris at nulla venenatis aliquam. Proin mattis tempor condimentum. Integer porta congue nisi, id elementum sem gravida nec.",
-      "location": "asdf",
-      "date": "2019-02-06T21:42:00.000Z",
-      "time": "16:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 17279,
-      "category": "comunity",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "The 10th Event",
-      "description": "Of course",
-      "location": "Madrid",
-      "date": "2019-02-06T21:42:00.000Z",
-      "time": "16:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 54010,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "saf",
-      "description": "fasdf",
-      "location": "sdf",
-      "date": "2019-02-06T14:54:00.000Z",
-      "time": "16:00",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 83553,
-      "category": "",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 15877,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "fgsd",
-      "description": "dfsg",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 442,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "f",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 39132,
-      "category": "nature",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "g",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 65008,
-      "category": "comunity",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "asdf",
-      "description": "asdf",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 94172,
-      "category": "nature",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "a",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 67857,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "09",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 94662,
-      "category": "housing",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "asd",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 43803,
-      "category": "nature",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "d",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 49066,
-      "category": "housing",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "asdf",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "user": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "id": 23760,
-      "category": "animal welfare",
-      "organizer": {
-        "id": "123",
-        "name": "Adam Jason"
-      },
-      "title": "fgh",
-      "description": "sdf",
-      "location": "",
-      "date": "",
-      "time": "",
       "attendees": []
     }
   ]

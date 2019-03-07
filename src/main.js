@@ -5,7 +5,13 @@ import store from './store/store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import 'nprogress/nprogress.css'
+import Vuelidate from 'vuelidate'
+import DateFilter from './filters/date'
 
+Vue.filter('date', DateFilter)
+Vue.use(Vuelidate)
+
+//#region Register Basic components globally
 const requireComponent = require.context(
    './components',
    false,
@@ -21,6 +27,7 @@ requireComponent.keys().forEach(fileName => {
 
    Vue.component(componentName, componentConfig.default || componentConfig)
 })
+//#endregion
 
 Vue.config.productionTip = false
 
